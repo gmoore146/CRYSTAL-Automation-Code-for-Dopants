@@ -1,0 +1,12 @@
+BAND
+Ga2O3 band structure with <ELEMENT> defect
+8 2 300 <VALENCE_BAND> <CONDUCTION_BAND> 1 0
+0 0 0   0 1 0
+0 1 0   0 0 1
+0 0 1   0 1 1
+0 1 1   0 0 0
+0 0 0   1 1 1
+1 1 1   1 1 0
+1 1 0   0 1 0
+0 1 0   0 0 0
+END
