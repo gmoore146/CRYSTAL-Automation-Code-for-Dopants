@@ -7,29 +7,29 @@ templates_folder = os.path.join(base_folder, "templates") # where input template
 
 #spinlock values, use a dictionary mapping an atomic number to a spinlock value
 spinlock_map = {
-    '21': '2',  #Sc
-    '22': '1',  #Ti
-    '23': '2',  #V
-    '24': '3',  #Cr
-    '25': '4',  #Mn
-    '26': '3',  #Fe
-    '27': '2',  #Co
-    '28': '1',  #Ni
-    '29': '2',  #Cu
-    '30': '1',  #Zn
-    '4' : '1',  #Be
-    '20': '1',  #Ca
-    '48': '1',  #Cd
-    '12': '1',  #Mg
-    '232': '1',  #Ge
-    '250': '1', #Sn with PSE
-    '238': '1', #Sr with PSE
-    '247': '2', #Ag with PSE
-    '246': '2', #Pd with PSE
-    '278': '1', #Pt with PSE
-    '6': '1',   #C
-    '3': '2',   #Li
-    '14': '1', #Si
+    '21': '2',  # Sc
+    '22': '1',  # Ti
+    '23': '2',  # V
+    '24': '3',  # Cr
+    '25': '4',  # Mn
+    '26': '3',  # Fe
+    '27': '2',  # Co
+    '28': '1',  # Ni
+    '29': '2',  # Cu
+    '30': '1',  # Zn
+    '4' : '1',  # Be
+    '20': '1',  # Ca
+    '48': '1',  # Cd
+    '12': '1',  # Mg
+    '232': '1',  # Ge
+    '250': '1', # Sn with PSE
+    '238': '1', # Sr with PSE
+    '247': '2', # Ag with PSE
+    '246': '2', # Pd with PSE
+    '278': '1', # Pt with PSE
+    '6': '1',   # C
+    '3': '2',   # Li
+    '14': '1', # Si
     '282': '1' #Pb
 }
 

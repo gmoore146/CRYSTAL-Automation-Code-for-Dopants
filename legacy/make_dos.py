@@ -2,7 +2,6 @@ import os
 import math  
 
 base_folder = os.path.dirname(os.path.abspath(__file__))
-
 templates_folder = os.path.join(base_folder, "templates")
 template_file = os.path.join(templates_folder, "template_dos.txt")
 

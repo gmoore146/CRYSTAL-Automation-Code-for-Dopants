@@ -2,7 +2,6 @@ import os
 import math  
 
 base_folder = os.path.dirname(os.path.abspath(__file__))
-
 templates_folder = os.path.join(base_folder, "templates")
 template_file = os.path.join(templates_folder, "template_band.txt")
 
@@ -56,6 +55,7 @@ for element_folder in element_folders:
         conduction_band = math.ceil(total_electrons / 2 + 5)
 
         output_file = os.path.join(root, f"{element_folder}_band.d3")
+
         if os.path.exists(output_file):
             print(f"Skipping {element_folder}: {output_file} already exists.")
             continue

@@ -29,6 +29,7 @@ module list -l
 module load mpich/3.2.1
 #/rds/general/user/gmallia/home/CRYSTAL17_cx1/v2gnu/runcryP {element_dos} 
 /rds/general/user/gmallia/home/CRYSTAL17_cx1/v2gnu/runpropP {element_dos} {job_name_d12} 
+                    
 ###
 if [[ -f ./{element_dos}.run ]];then
 chmod 755 ./{element_dos}.run
